@@ -1,8 +1,11 @@
-
 ---
-name: Date playbook
-hosts: servers
-tasks:
-- name: this will show the
-date
-command: date
+- name: date playbook
+  hosts: servers
+  tasks:
+    - name: show date
+      debug:
+        command: date
+
+      -name: show date again
+      command: date
+    ---
