@@ -1,6 +1,8 @@
+
 ---
-- name:playbook
-host:localhost
-task:
-- name: test
-ping:
+name: Date playbook
+hosts: servers
+tasks:
+- name: this will show the
+date
+command: date
