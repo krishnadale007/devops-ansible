@@ -1,0 +1,26 @@
+---
+- name: this is globle varble file
+  hosts: all
+  vars:
+    url: "this is from globle var"
+  tasks:
+    - name: this is first file
+      debug:
+        msg: "{{url}}"
+        
+    - name: this is second file
+      debug:
+        msg: "{{url}}"
+
+    - name: this is third file
+      debug:
+        msg: "{{url}}"
+  - name: this is local varblr file
+    host: all
+    vars:
+      url: "hi devops"
+      task:
+      - name: this is local first file
+        debug:
+          msg: "{{ur}}"
+...            

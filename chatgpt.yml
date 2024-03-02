@@ -1,0 +1,27 @@
+---
+- name: This is a global variable file
+  hosts: all
+  vars:
+    url: "This is from global var"
+  tasks:
+    - name: This is the first task
+      debug:
+        msg: "{{ url }}"
+
+    - name: This is the second task
+      debug:
+        msg: "{{ url }}"
+
+    - name: This is the third task
+      debug:
+        msg: "{{ url }}"
+
+- name: This is a local variable file
+  hosts: all
+  vars:
+    url: "hi devops"
+  tasks:
+    - name: This is a local first task
+      debug:
+        msg: "{{ url }}"
+

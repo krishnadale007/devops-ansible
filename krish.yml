@@ -1,0 +1,20 @@
+---
+- name: this is mixture og globle and local file
+  hosts: all
+  vars:
+    url: "this is msg globle var"
+  tasks:
+   - name: first globle file
+     debug:
+      msg: "{{url}}"
+
+   - name: second globle file
+     debug:
+      msg: "{{url}}"
+
+    - name: first local file
+      debug:
+        msg: "{{string}}"
+      vars:
+        string: "this is msg for local variable"
+...

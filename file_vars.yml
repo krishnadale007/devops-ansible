@@ -1,0 +1,8 @@
+---
+- name: this is playbook is  file of variables
+  hosts: all
+  vars_files: offic.yml 
+  tasks:
+    - name: first task of file variable
+      debug:
+        msg: "{{url}}" 
