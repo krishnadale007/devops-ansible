@@ -1,16 +1,18 @@
 ---
-- name: conditioner example playbook 
+- name: install a tree pkg
   hosts: all
   become: yes
   tasks:
-    - name: install a tree package
+    - name: install tree package
       apt:
         name: tree
         state: latest
-      tags: demo
+      tags: 
+        - demo
 
-     - name: install with tree
-        apt:
-          name: tree
+    - name: install with tree
+      apt:
+        name: tree
         state: present
-      tag: demo 2
+      tags: 
+        - demo 2
