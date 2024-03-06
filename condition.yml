@@ -2,3 +2,4 @@
 - name:condition example playbook
   hosts: all
   become: yes
+  task
