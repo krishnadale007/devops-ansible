@@ -3,7 +3,7 @@
   hosts: all
   become: yes
   tasks:
-    - name: install a tree 
+    - name: install a tree package
       apt:
         name: tree
         state: latest
