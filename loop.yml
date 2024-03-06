@@ -2,4 +2,4 @@
 - name:
   hosts: all
   become: yes
-    t
+    tasks:
