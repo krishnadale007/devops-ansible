@@ -6,4 +6,4 @@
    - name: install nginx in debian family
      command: apt install nginx -y
      when: anible-os-family== "debian"
-     - name: install  in 
+     - name: install httpd in 
