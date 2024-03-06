@@ -5,6 +5,7 @@
   tasks:
     - name: fist playbook 
       user: name "{{item}}"
+      
        with_item:
                 - tony
                 - jarvis
