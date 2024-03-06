@@ -5,4 +5,4 @@ gether_fact: yes
 tasks: this gether_fact
  - name: print sample msg
    debug:
-     msg:"{{}}"
+     msg:"{{ansible_os_family}}"
