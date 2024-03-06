@@ -6,4 +6,5 @@
      tags: demo
      - name: install with tree
         apt:
-        - name:
+        state:
+        tag:
