@@ -1,6 +1,7 @@
 ---
-- name: example play
+- name: example playbook adding name
   hosts: all
   become: yes
     tasks:
-    name: fist playbook
+    name: fist playbook 
+    
