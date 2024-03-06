@@ -1,5 +1,7 @@
 ---
-- name: conditioner 
+- name: conditioner example playbook 
+  hosts: all
+  becomes:
  - name: install a tree pkg
    apt:
    name:tree
