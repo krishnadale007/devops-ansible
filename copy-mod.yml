@@ -4,4 +4,4 @@
   tasks:
      - name:
        copy:
-         
+        src: /home/
