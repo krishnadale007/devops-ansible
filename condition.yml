@@ -1,2 +1,4 @@
 ---
 - name:condition example playbook
+  hosts: all
+  
