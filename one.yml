@@ -3,7 +3,7 @@
   hosts: all
   become: yes
   vars:
-     package: apache
+    package: apache
 
   tasks:
     - name: installing package
