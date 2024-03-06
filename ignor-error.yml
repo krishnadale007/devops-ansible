@@ -6,4 +6,4 @@
   * shell: ps -db | grep sleep | grep -v grep
   * ignore error any playbook
   debug:
-  
+  mdg" " hello world "
