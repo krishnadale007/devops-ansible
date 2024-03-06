@@ -7,6 +7,6 @@
       debug:
         msg: "{{ ansible_os_family }}"
 
-    - name: not print sample message
+    - name: print sample message
       debug:
         msg: "{{ ansible_os_family }}"
