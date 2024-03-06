@@ -4,8 +4,8 @@
   becomes:
   tasks:
     - name: install a tree pkg
-       apt:
-   name:tree
+      apt:
+    name:tree
    state: latest
      tags: demo
      - name: install with tree
