@@ -2,4 +2,5 @@
 - name: install a tree pkg
    apt:
    name:tree
-   
+   state: latest
+     tags
