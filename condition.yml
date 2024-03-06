@@ -1,5 +1,5 @@
 ---
-- name:condition example playbook
+- name: condition example playbook
   hosts: all
   become: yes
   task:
