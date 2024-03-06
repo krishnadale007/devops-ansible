@@ -1,0 +1,12 @@
+---
+- name: condition example playbook
+  hosts: all
+  become: yes
+  tasks:
+    - name: install nginx in Debian family
+      command: sudo apt install nginx -y
+      when: ansible_os_family == "Debian"
+
+    - name: install httpd in Red Hat
+      command: yum install httpd -y
+      when: ansible_os_family == "RedHat"
