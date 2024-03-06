@@ -1,11 +1,11 @@
----
-- name:
-hosts: all
-become: yes
+- name: example playbook.yml
+  hosts: all
+  become: yes
   vars:
-     package: httpd
-task:
- - name: instaling httpd
-   apt:
-     name: "{{package}}"
-     state:latest
+    package: httpd
+
+  tasks:
+    - name: installing package
+      apt:
+        name: "{{package}}"
+        state: latest
