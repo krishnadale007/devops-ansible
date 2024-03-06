@@ -4,7 +4,7 @@
   become: yes
   tasks:
     - name: fist playbook 
-      user: "{{item}}"
+      user: name "{{item}}"
        with_item:
                 - tony
                 - jarvis
