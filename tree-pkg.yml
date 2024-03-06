@@ -11,5 +11,5 @@
 
      - name: install with tree
         apt:
-          state:
+        state: present
       tag: demo 2
