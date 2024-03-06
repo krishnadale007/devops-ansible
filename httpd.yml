@@ -1,8 +1,9 @@
+---
 - name: example playbook.yml
   hosts: all
   become: yes
   vars:
-    package: httpd
+    package: apache2
 
   tasks:
     - name: installing package
