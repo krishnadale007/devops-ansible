@@ -3,4 +3,5 @@
   host: all
 gether_fact: yes
 tasks: this gether_fact
- - name: print 
+ - name: print sample msg
+   de
