@@ -8,6 +8,7 @@
         name:tree
         state: latest
       tags: demo
+      
      - name: install with tree
         apt:
         state:
