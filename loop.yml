@@ -7,5 +7,7 @@
       user: "{{item}}"
        with_item:
                  - tony
-              - jarvis
-              state=present
+                 - jarvis
+             
+             
+   state=present
