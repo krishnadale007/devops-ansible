@@ -5,7 +5,7 @@
     tasks:
      name: fist playbook 
       user: "{{item}}"
-     with_item:
-              - tony
+       with_item:
+                 - tony
               - jarvis
               state=present
