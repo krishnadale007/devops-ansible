@@ -1,4 +1,5 @@
 ---
 - name: conditioner playbook example
   hosts: all
+  tasks:
   
