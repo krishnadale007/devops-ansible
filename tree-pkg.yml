@@ -4,4 +4,6 @@
    name:tree
    state: latest
      tags: demo
-     - name: install 
+     - name: install with tree
+        apt:
+        - name:
