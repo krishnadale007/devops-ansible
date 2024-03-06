@@ -6,8 +6,7 @@
       shell: ps -ef | grep sleep | grep -v grep
       ignore_errors: yes
       
-
-    - name: play any playbook
+- name: play any playbook
       debug:
         msg: "Hello, world"
       
