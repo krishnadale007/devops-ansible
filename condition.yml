@@ -5,7 +5,7 @@
   task:
    - name: install nginx in debian family
      command: sudo apt install nginx -y
-     when: anible_os_family== "debian"
+     when: anible_os_family == "debian"
    - name: install httpd in redhat
      command: yum install httpd -y
      when: ansible_os_family=="redhat"
