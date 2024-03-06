@@ -6,4 +6,4 @@
        copy:
         src: /home/ubuntu/xyz.txt
         dest: /mnt
-        remote_src: true
+        iremote_src: true
