@@ -1,4 +1,5 @@
 ---
 - name: install a tree pkg
    apt:
-   name
+   name:tree
+   
