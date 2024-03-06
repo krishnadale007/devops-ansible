@@ -2,4 +2,4 @@
 - name:
   host: all
 gether_fact: yes
-tasks:
+tasks: this get
