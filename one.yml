@@ -8,5 +8,5 @@
   tasks:
     - name: installing package
       apt:
-        name: "{{ package }}"
+        name: "{{package}}"
         state: latest
