@@ -7,3 +7,4 @@
       debug:
         msg: "{{ ansible_os_family }}"
 
+- name: gathet
