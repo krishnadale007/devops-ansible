@@ -9,4 +9,4 @@
 
     - name: not print sample message
       debug:
-        msg: "{{ ansible_os_}}"
+        msg: "{{ ansible_os_family }}"
