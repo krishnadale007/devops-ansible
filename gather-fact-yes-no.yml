@@ -8,4 +8,5 @@
         msg: "{{ ansible_os_family }}"
 
     - name: not print sample message
-      
+      debug:
+        msg: 
