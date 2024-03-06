@@ -5,7 +5,7 @@
   tasks:
     - name: install a tree pkg
       apt:
-        name:tree
+        name: tree
         state: latest
       tags: demo
 
