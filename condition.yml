@@ -5,3 +5,4 @@
   task:
    - name: install nginx in debian family
      command: apt install nginx -y
+     when: 
