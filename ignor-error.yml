@@ -5,9 +5,9 @@
     - name: Check if process is running
       shell: ps -ef | grep sleep | grep -v grep
       ignore_errors: yes
-      register: sleep_process_status
+      
 
-    - name: Debug message
+    - name: play any playbook
       debug:
         msg: "Hello, world"
       
