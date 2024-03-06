@@ -9,4 +9,4 @@
 
     - name: print sample message
       debug:
-        msg: "{{ ansible_os_family }}"
+        msg: "{{ not ansible_os_family }}"
