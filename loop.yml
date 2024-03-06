@@ -2,7 +2,7 @@
 - name: example playbook adding name
   hosts: all
   become: yes
-    tasks:
+  tasks:
      name: fist playbook 
       user: "{{item}}"
        with_item:
