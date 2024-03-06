@@ -4,4 +4,5 @@
   tasks:
      - name:
        copy:
-        src: /home/
+        src: /home/ubuntu/xyz.txt
+        dept:
