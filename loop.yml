@@ -6,3 +6,4 @@
      name: fist playbook 
      user: "{{item}}"
      with_item:
+              -
