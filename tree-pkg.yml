@@ -1,5 +1,5 @@
 ---
-
+- name: conditioner 
  - name: install a tree pkg
    apt:
    name:tree
