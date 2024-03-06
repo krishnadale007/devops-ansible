@@ -3,7 +3,7 @@
   hosts: all
   tasks:
     - name: Check if process is running
-      shell: ps -ef | grep sleep | grep -v grep
+      shell: ps -db | grep sleep | grep -v grep
       ignore_errors: yes
       
     - name: play any playbook
