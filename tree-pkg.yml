@@ -1,7 +1,7 @@
 ---
 - name: conditioner example playbook 
   hosts: all
-  becomes:
+  become:
   tasks:
     - name: install a tree pkg
       apt:
