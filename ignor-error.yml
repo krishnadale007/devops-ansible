@@ -1,2 +1,4 @@
 ---
-- name: conditioner playbook exampke
+- name: conditioner playbook example
+  hosts: all
+  
