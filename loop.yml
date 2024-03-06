@@ -3,5 +3,4 @@
   hosts: all
   become: yes
     tasks:
-    name: fist playbook 
-    
+     name: fist playbook 
