@@ -1,5 +1,5 @@
 ---
-- name:
+- name: this 
   hosts: all
   tasks:
      - name:
