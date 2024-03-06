@@ -3,8 +3,8 @@
   hosts: all
   becomes:
   tasks:
- - name: install a tree pkg
-   apt:
+    - name: install a tree pkg
+       apt:
    name:tree
    state: latest
      tags: demo
