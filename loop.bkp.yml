@@ -1,0 +1,12 @@
+---
+- name: example playbook adding name
+  hosts: all
+  become: yes
+  tasks:
+    - name: first playbook
+      user:
+        name: "{{ item }}"
+        state: present
+      with_items:
+        - tony
+        - jarvis
