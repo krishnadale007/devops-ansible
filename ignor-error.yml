@@ -3,4 +3,5 @@
   hosts: all
   tasks:
   - name: node 
-  * shell: ps -db | grep sleep | 
+  * shell: ps -db | grep sleep | grep -v grep
+  
