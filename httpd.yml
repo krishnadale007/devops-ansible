@@ -1,0 +1,11 @@
+---
+- name:
+hosts: all
+become: yes
+  vars:
+     package: httpd
+task:
+ - name: instaling httpd
+   apt:
+     name: "{{package}}"
+     state:latest
