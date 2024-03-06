@@ -7,4 +7,4 @@
      command: apt install nginx -y
      when: anible-os-family== "debian"
      - name: install httpd in redhat
-     command
+     command: yum install httpd -y
