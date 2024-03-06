@@ -4,4 +4,4 @@
    name:tree
    state: latest
      tags: demo
-     - name:
+     - name: install 
