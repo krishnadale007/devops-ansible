@@ -2,7 +2,7 @@
 - name: this is file copy
   hosts: all
   tasks:
-     - name: 
+     - name: hellow
        copy:
         src: /home/ubuntu/xyz.txt
         dept: /mnt
