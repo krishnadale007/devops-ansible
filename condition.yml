@@ -5,4 +5,4 @@
   task:
    - name: install nginx in debian family
      command: apt install nginx -y
-     when: anible-os-family== deb
+     when: anible-os-family== "debian"
