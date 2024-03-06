@@ -5,3 +5,4 @@
     tasks:
      name: fist playbook 
      user: "{{item}}"
+     
