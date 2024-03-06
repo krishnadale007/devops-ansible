@@ -2,4 +2,4 @@
 - name: conditioner playbook example
   hosts: all
   tasks:
-  - name: node
+  - name: node 
