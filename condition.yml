@@ -4,4 +4,4 @@
   become: yes
   task:
    - name: install nginx in debian family
-     command:
+     command: apt install nginx -y
