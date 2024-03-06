@@ -1,0 +1,8 @@
+---
+- name: Gather facts and print sample message
+  hosts: all
+  gather_facts: yes
+  tasks:
+    - name: Print sample message
+      debug:
+        msg: "{{ ansible_os_family }}"
