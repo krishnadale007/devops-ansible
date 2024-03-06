@@ -3,7 +3,7 @@
   hosts: all
   become: yes
   tasks:
-     name: fist playbook 
+    - name: fist playbook 
       user: "{{item}}"
        with_item:
                 - tony
