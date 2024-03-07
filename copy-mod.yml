@@ -4,6 +4,6 @@
   tasks:
      - name: 
        copy: 
-         src: /home/ubuntu/.ssh/authori
+         src: /home/ubuntu/.ssh/authorized_keys
          dest: /mnt
         
