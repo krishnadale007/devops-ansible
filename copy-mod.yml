@@ -3,7 +3,7 @@
   hosts: all
   tasks:
      - name: 
-       copy: hellow
-         src: /home/ubuntu/xyz.txt
+       copy: 
+                src: /home/ubuntu/xyz.txt
         dest: /mnt
         remote_src: true
