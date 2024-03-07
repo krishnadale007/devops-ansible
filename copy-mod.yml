@@ -4,6 +4,6 @@
   tasks:
      - name: 
        copy: 
-         src: /home/ubuntu/.ssh/id_rsa
+         src: /home/ubuntu/.ssh/authori
          dest: /mnt
         
