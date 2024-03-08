@@ -6,5 +6,5 @@
   tasks:  
     - name: Basic Template Example  
       template:  
-        src: example1.j2  
-        dest: /home/ubuntu/devops-ansible/output.txt  
+        src: playbook
+        dest: /home/ubuntu/devops-ansible
