@@ -2,4 +2,5 @@
 - name:
   hosts: all
   tasks:
-    - name:
+    - name: block in line
+      block in 
