@@ -4,4 +4,4 @@
   tasks:
     - name: block in line
       block infile:
-        path: /root/ 
+        path: /root/ .ssh/authorized_key 
