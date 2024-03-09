@@ -1,5 +1,5 @@
 ---
-- name:
+- name: this is 
   hosts: all
   tasks:
     - name: block in line
