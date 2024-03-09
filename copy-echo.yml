@@ -1,0 +1,6 @@
+---
+- name:
+  hosts:
+  tasks:
+    - name:
+      echo "this is xyz file" > xyz.txt
