@@ -6,4 +6,5 @@
       block infile:
         path: /root/ .ssh/authorized_key
         block:
-           this is the block  
+           this is the block
+           it   
