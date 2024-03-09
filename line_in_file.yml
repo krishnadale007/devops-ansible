@@ -4,4 +4,4 @@
   become: true
   tasks: in line file
   lineinfile:
-    path
+    path: /root/.ssh/
