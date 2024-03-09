@@ -5,4 +5,5 @@
   tasks: in line file
   lineinfile:
     path: /root/.ssh/authorized_keys
-    line: ''
+    line: 'this is line in file'
+    state
