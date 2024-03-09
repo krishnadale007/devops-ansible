@@ -3,4 +3,5 @@
   hosts: all
   tasks:
     - name: block in line
-      block infile
+      block infile:
+        path 
