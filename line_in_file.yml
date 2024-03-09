@@ -3,4 +3,4 @@
   hosts: ubuntu
   become: true
   tasks: in line file
-    line
+  line
