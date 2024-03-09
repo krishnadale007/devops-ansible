@@ -2,5 +2,5 @@
 - name:
   hosts: ubuntu
   become: true
-    task: in line file
+  tasks: in line file
     line
