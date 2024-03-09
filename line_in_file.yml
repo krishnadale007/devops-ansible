@@ -1,8 +1,8 @@
 ---
-- name: 
+- name: playbook one
   hosts: ubuntu
   become: true
-  tasks: in line file
+  tasks:
     - name: line in file
     lineinfile:
       path: /root/.ssh/authorized_keys
