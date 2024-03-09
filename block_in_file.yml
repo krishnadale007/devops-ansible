@@ -7,4 +7,5 @@
         path: /root/ .ssh/authorized_key
         block:
            this is the block
-           it can span multiple   
+           it can span multiple lines
+...             
